@@ -41,33 +41,33 @@ const Contact = () => (
             <a href="mailto:bopsbrother@gmail.com">bopsbrother@gmail.com</a>
           </p>
           <article className="media center">
-            <span className="icon">
+            <span className="">
               <a
                 href={data.site.siteMetadata.facebook}
                 target="_blank"
                 title="Facebook"
               >
-                <FaFacebook size="fa-3x" color="#d6938a" style={{ marginRight: "1vw" }} />
+                <FaFacebook size="fa-xs" color="#d6938a" style={{ marginRight: "1vw" }} />
               </a>
             </span>
             &nbsp;
-            <span className="icon" style={{ paddingRight: "1vw" }}>
+            <span className="">
               <a
                 href={data.site.siteMetadata.instagram}
                 target="_blank"
                 title="Instagram"
               >
-                <FaInstagram size="fa-3x" color="#d6938a" style={{ marginRight: "1vw" }} />
+                <FaInstagram size="fa-xs" color="#d6938a" style={{ marginRight: "1vw" }} />
               </a>
             </span>
             &nbsp;
-            <span className="icon">
+            <span className="">
               <a
                 href={data.site.siteMetadata.youtube}
                 target="_blank"
                 title="YouTube"
               >
-                <FaYoutube size="fa-3x" color="#d6938a" />
+                <FaYoutube size="fa-xs" color="#d6938a" />
               </a>
             </span>
           </article>
