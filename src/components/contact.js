@@ -40,19 +40,19 @@ const Contact = () => (
           </p>
           <article className="media center">
             <span className="icon">
-              <a href={data.site.siteMetadata.facebook} target="_blank">
+              <a href={data.site.siteMetadata.facebook} target="_blank" title="Facebook">
                 <FaFacebook size="fa-2x" color="#d6938a" />
               </a>
             </span>
             &nbsp;
             <span className="icon">
-              <a href={data.site.siteMetadata.instagram} target="_blank">
+              <a href={data.site.siteMetadata.instagram} target="_blank" title="Instagram">
                 <FaInstagram size="fa-2x" color="#d6938a" />
               </a>
             </span>
             &nbsp;
             <span className="icon">
-              <a href={data.site.siteMetadata.youtube} target="_blank">
+              <a href={data.site.siteMetadata.youtube} target="_blank" title="YouTube">
                 <FaYoutube size="fa-2x" color="#d6938a" />
               </a>
             </span>
