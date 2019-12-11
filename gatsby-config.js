@@ -3,8 +3,8 @@ module.exports = {
 		title: 'BOPS | Garage pop music from Paris',
 		author: 'Aman Mittal',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
-		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
+		description: 'BOPS NEW SONGS',
+		keywords: `Bops Garage Pop Music Paris Rennes`,
 		facebook: `https://www.facebook.com/bops03/`,
 		instagram: `https://www.instagram.com/bopsmusic/`,
 		youtube: `https://www.youtube.com/channel/UCDwjMtPjCjtZVA4t8UIWiRA`,
@@ -24,13 +24,12 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: 'Makefolio',
-				short_name: 'Makefolio',
+				name: 'Bops',
+				short_name: 'Bops',
 				start_url: '/',
 				background_color: '#2980b9',
 				theme_color: '#2980b9',
 				display: 'standalone',
-				icon: 'src/images/gatsby-icon.png',
 				orientation: 'portrait'
 			}
 		},
@@ -38,7 +37,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
-				trackingId: 'UA-XXXXXXXX-X',
+				trackingId: 'UA-154432313-1',
 				// Setting this parameter is optional (requried for some countries such as Germany)
 				anonymize: true
 			}
