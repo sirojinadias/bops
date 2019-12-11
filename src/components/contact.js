@@ -41,7 +41,7 @@ const Contact = () => (
             <a href="mailto:bopsbrother@gmail.com">bopsbrother@gmail.com</a>
           </p>
           <article className="media center">
-            <span className="">
+            <span className="icon is-medium">
               <a
                 href={data.site.siteMetadata.facebook}
                 target="_blank"
@@ -51,7 +51,7 @@ const Contact = () => (
               </a>
             </span>
             &nbsp;
-            <span className="">
+            <span className="icon is-medium">
               <a
                 href={data.site.siteMetadata.instagram}
                 target="_blank"
@@ -61,7 +61,7 @@ const Contact = () => (
               </a>
             </span>
             &nbsp;
-            <span className="">
+            <span className="icon is-medium">
               <a
                 href={data.site.siteMetadata.youtube}
                 target="_blank"
