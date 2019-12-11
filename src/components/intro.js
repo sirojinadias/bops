@@ -33,8 +33,8 @@ const Section = styled.section`
 
 const Hl = styled.span`
   font-weight: bold;
-  color: #cacaca;
+  color: #bababa;
   a {
-    color: #cacaca;
+    color: #bababa;
   }
 `;
