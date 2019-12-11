@@ -47,7 +47,7 @@ const Contact = () => (
                 target="_blank"
                 title="Facebook"
               >
-                <FaFacebook size="fa-4x" color="#d6938a" />
+                <FaFacebook size="fa-2x" color="#d6938a" />
               </a>
             </span>
             &nbsp;
@@ -57,7 +57,7 @@ const Contact = () => (
                 target="_blank"
                 title="Instagram"
               >
-                <FaInstagram size="fa-4x" color="#d6938a" />
+                <FaInstagram size="fa-2x" color="#d6938a" />
               </a>
             </span>
             &nbsp;
@@ -67,7 +67,7 @@ const Contact = () => (
                 target="_blank"
                 title="YouTube"
               >
-                <FaYoutube size="fa-4x" color="#d6938a" />
+                <FaYoutube size="fa-2x" color="#d6938a" />
               </a>
             </span>
           </article>
