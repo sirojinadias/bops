@@ -41,23 +41,23 @@ const Contact = () => (
             <a href="mailto:bopsbrother@gmail.com">bopsbrother@gmail.com</a>
           </p>
           <article className="media center">
-            <span className="icon is-medium">
+            <span className="icon is-medium" style={{ marginRight: "10px" }}>
               <a
                 href={data.site.siteMetadata.facebook}
                 target="_blank"
                 title="Facebook"
               >
-                <FaFacebook size="fa-xs" color="#d6938a" style={{ marginRight: "1vw" }} />
+                <FaFacebook size="fa-xs" color="#d6938a" />
               </a>
             </span>
             &nbsp;
-            <span className="icon is-medium">
+            <span className="icon is-medium" style={{ marginRight: "10px" }}>
               <a
                 href={data.site.siteMetadata.instagram}
                 target="_blank"
                 title="Instagram"
               >
-                <FaInstagram size="fa-xs" color="#d6938a" style={{ marginRight: "1vw" }} />
+                <FaInstagram size="fa-xs" color="#d6938a" />
               </a>
             </span>
             &nbsp;
