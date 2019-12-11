@@ -43,6 +43,12 @@ module.exports = {
 				anonymize: true
 			}
 		},
+		{
+			resolve: `gatsby-plugin-fullstory`,
+			options: {
+				fs_org: 'QJR3W',
+			},
+		},
 		`gatsby-plugin-sitemap`,
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline

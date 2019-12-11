@@ -14,10 +14,18 @@ const Intro = ({ siteTitle }) => (
           <Hl>Lemon Twigs</Hl> / <Hl>Ty Segall</Hl> / <Hl>Girlband</Hl>
         </h2>
         <h2 className="subtitle">
-          Labels : <Hl>RCR (En)</Hl> / <Hl><a href="https://mauvaisefoirecords.bandcamp.com/" target="_blank">Mauvaise Foi Records (Fr)</a></Hl>
+          Labels : <Hl>RCR (En)</Hl> /{" "}
+          <Hl>
+            <a href="https://mauvaisefoirecords.bandcamp.com/" target="_blank">
+              Mauvaise Foi Records (Fr)
+            </a>
+          </Hl>
         </h2>
         <h2 className="subtitle">
-          Management : <Hl><a href="#contacts">La Pieuvre</a></Hl>
+          Management :{" "}
+          <Hl>
+            <a href="#contacts">La Pieuvre</a>
+          </Hl>
         </h2>
       </div>
     </div>

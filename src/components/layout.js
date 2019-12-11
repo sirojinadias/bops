@@ -30,6 +30,6 @@ const Layout = ({ children }) => (
 const Columns = styled.div`
   background: #d6938a;
   margin-bottom: 0;
-`
+`;
 
 export default Layout;
