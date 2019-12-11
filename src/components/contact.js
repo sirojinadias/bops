@@ -25,8 +25,7 @@ const Contact = () => (
           <p className="is-size-4">
             MANAGEMENT / PROMOTION
           </p>
-          <p className="center"><Pieuvre /></p>
-          <span>&nbsp;</span>
+          <p className="is-size-4 center"><Pieuvre /></p>
           <p className="is-size-4">
             Alexia Vittori : <a href="mailto:alexia@lapieuvre-mgmt.fr">alexia@lapieuvre-mgmt.fr</a><br />
             Mike Jamelot : <a href="mailto:mike@lapieuvre-mgmt.fr">mike@lapieuvre-mgmt.fr</a>
