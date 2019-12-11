@@ -41,13 +41,13 @@ const Contact = () => (
             <a href="mailto:bopsbrother@gmail.com">bopsbrother@gmail.com</a>
           </p>
           <article className="media center">
-            <span className="icon" style={{ paddingRight: "1vw" }}>
+            <span className="icon">
               <a
                 href={data.site.siteMetadata.facebook}
                 target="_blank"
                 title="Facebook"
               >
-                <FaFacebook size="fa-2x" color="#d6938a" />
+                <FaFacebook size="fa-3x" color="#d6938a" style={{ marginRight: "1vw" }} />
               </a>
             </span>
             &nbsp;
@@ -57,7 +57,7 @@ const Contact = () => (
                 target="_blank"
                 title="Instagram"
               >
-                <FaInstagram size="fa-2x" color="#d6938a" />
+                <FaInstagram size="fa-3x" color="#d6938a" style={{ marginRight: "1vw" }} />
               </a>
             </span>
             &nbsp;
@@ -67,7 +67,7 @@ const Contact = () => (
                 target="_blank"
                 title="YouTube"
               >
-                <FaYoutube size="fa-2x" color="#d6938a" />
+                <FaYoutube size="fa-3x" color="#d6938a" />
               </a>
             </span>
           </article>
