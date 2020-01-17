@@ -32,7 +32,7 @@ const Contact = () => (
 export default Contact;
 
 const Section = styled.footer`
-  background: #adbd9e;
+  background: #fafaf6;
   margin-bottom: 0;
 `;
 

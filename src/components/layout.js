@@ -15,7 +15,7 @@ const Layout = ({ children }) => (
     <Helmet />
     <Header />
     <Intro />
-    <Columns className="columns is-vcentered" style={{ marginBottom: 0 }}>
+    <Columns className="columns is-gapless is-vcentered" style={{ marginBottom: 0 }}>
       <div className="column">
         <Bio />
       </div>
