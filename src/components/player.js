@@ -6,24 +6,13 @@ import styled from "styled-components";
 
 const Player = ({ siteTitle }) => (
   <Section className="hero center">
-    <div className="hero-body">
-      <div className="container">
-        <iframe
-          title="Bandcamp"
-          style={{ border: 0, width: "400px", height: "472px" }}
-          src="https://bandcamp.com/EmbeddedPlayer/album=3074666298/size=large/bgcol=1f1f1f/linkcol=cacaca/artwork=small/transparent=true/"
-          seamless
-        >
-          <a href="http://bops.bandcamp.com/album/bops">BOPS by BOPS</a>
-        </iframe>
-      </div>
-    </div>
+    <iframe title="listentobops" width="100%" height="340" scrolling="no" frameborder="no" src="https://fidbak.audio/bops/embed/9bb57d3c8ab7bc72faa6b545"></iframe>
   </Section>
 );
 
 export default Player;
 
 const Section = styled.section`
-  background: #adbd9e;
+  background: #d6938a;
   color: #1f1f1f;
 `;

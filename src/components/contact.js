@@ -1,84 +1,43 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
-import { StaticQuery, graphql } from "gatsby";
 import "./style.scss";
 import Pieuvre from "./pieuvre";
 
 import styled from "styled-components";
 
 const Contact = () => (
-  <StaticQuery
-    query={graphql`
-      query SocialQuery {
-        site {
-          siteMetadata {
-            facebook
-            instagram
-            youtube
-          }
-        }
-      }
-    `}
-    render={data => (
-      <Section className="footer center" id="contacts">
-        <div className="content has-text-centered">
-          <p className="is-size-4">MANAGEMENT / PROMOTION</p>
-          <p className="media center">
-            <Pieuvre />
-          </p>
-          <p className="is-size-4">
-            Alexia Vittori :{" "}
-            <a href="mailto:alexia@lapieuvre-mgmt.fr">
-              alexia@lapieuvre-mgmt.fr
+  <Section className="footer center" id="contacts">
+    <div className="content has-text-centered">
+      <H3>Management / Promotion</H3>
+      <p className="media center">
+        <Pieuvre />
+      </p>
+      <p className="is-size-4">
+        Alexia Vittori :{" "}
+        <a href="mailto:alexia@lapieuvre-mgmt.fr">
+          alexia@lapieuvre-mgmt.fr
             </a>
-            <br />
-            Mike Jamelot :{" "}
-            <a href="mailto:mike@lapieuvre-mgmt.fr">mike@lapieuvre-mgmt.fr</a>
-          </p>
-          &nbsp;
-          <p className="is-size-4">GROUPE</p>
-          <p className="is-size-4">
-            <a href="mailto:bopsbrother@gmail.com">bopsbrother@gmail.com</a>
-          </p>
-          <article className="media center">
-            <span className="icon is-medium" style={{ marginRight: "10px" }}>
-              <a
-                href={data.site.siteMetadata.facebook}
-                target="_blank"
-                title="Facebook"
-              >
-                <FaFacebook size="fa-xs" color="#d6938a" />
-              </a>
-            </span>
-            &nbsp;
-            <span className="icon is-medium" style={{ marginRight: "10px" }}>
-              <a
-                href={data.site.siteMetadata.instagram}
-                target="_blank"
-                title="Instagram"
-              >
-                <FaInstagram size="fa-xs" color="#d6938a" />
-              </a>
-            </span>
-            &nbsp;
-            <span className="icon is-medium">
-              <a
-                href={data.site.siteMetadata.youtube}
-                target="_blank"
-                title="YouTube"
-              >
-                <FaYoutube size="fa-xs" color="#d6938a" />
-              </a>
-            </span>
-          </article>
-        </div>
-      </Section>
-    )}
-  />
-);
+        <br />
+        Mike Jamelot :{" "}
+        <a href="mailto:mike@lapieuvre-mgmt.fr">mike@lapieuvre-mgmt.fr</a>
+      </p>
+      &nbsp;
+          <H3 className="is-size-4">Groupe</H3>
+      <p className="is-size-4">
+        <a href="mailto:bopsbrother@gmail.com">bopsbrother@gmail.com</a>
+      </p>
+    </div>
+  </Section>
+)
 
 export default Contact;
 
 const Section = styled.footer`
-  background: #fefefe;
+  background: #adbd9e;
+  margin-bottom: 0;
+`;
+
+
+const H3 = styled.h3`
+  font-size: 1.5rem;
+  font-weight: bold;
 `;
